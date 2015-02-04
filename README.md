@@ -44,7 +44,7 @@ License
 MIT
 
 
-**References**
+
 
 [Joseluis Laso]:http://www.joseluislaso.es/
 
