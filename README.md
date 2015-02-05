@@ -1,3 +1,8 @@
+[![License](https://poser.pugx.org/jlaso/gps/license.svg)](https://packagist.org/packages/jlaso/gps)
+[![Latest Unstable Version](https://poser.pugx.org/jlaso/gps/v/unstable.svg)](https://packagist.org/packages/jlaso/gps)
+[![Total Downloads](https://poser.pugx.org/jlaso/gps/downloads.svg)](https://packagist.org/packages/jlaso/gps)
+[![Latest Stable Version](https://poser.pugx.org/jlaso/gps/v/stable.svg)](https://packagist.org/packages/jlaso/gps)
+
 # jlaso/gps
 
 > gps related tools
