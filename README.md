@@ -13,9 +13,10 @@ I intent in this repo to have togheter all my gps tools that I need for my proje
   - distance calculation between two gps points
 
 
+Required PHP7
 
 ### Version
-0.1
+1.1
 
 ### Authors
 
