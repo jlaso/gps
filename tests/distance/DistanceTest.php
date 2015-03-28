@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 use JLaso\Gps\Tools;
 use JLaso\Gps\Point;
@@ -22,14 +23,6 @@ class DistanceTest extends PHPUnit_Framework_TestCase
         $paris = new Point(48.856667,2.350987);
 
         $this->assertLessThan(1.052, abs(1052.69 - $madrid->distanceTo($paris)));
-    }
-
-    /**
-     * @expectedException \Exception
-     */
-    function testException()
-    {
-        $distance = Tools::distance('a', 'b', 'c', 'd');
     }
 
 }
