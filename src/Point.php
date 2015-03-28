@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 namespace JLaso\Gps;
 
@@ -15,53 +16,33 @@ class Point
     /** @var float */
     protected $latitude;
 
-    /**
-     * @param float $latitude
-     * @param float $longitude
-     */
-    function __construct($latitude, $longitude)
+    function __construct(float $latitude, float $longitude)
     {
         $this->latitude  = $latitude;
         $this->longitude = $longitude;
     }
 
-    /**
-     * @param float $latitude
-     */
-    public function setLatitude($latitude)
+    public function setLatitude(float $latitude)
     {
         $this->latitude = $latitude;
     }
 
-    /**
-     * @return float
-     */
-    public function getLatitude()
+    public function getLatitude(): float
     {
         return $this->latitude;
     }
 
-    /**
-     * @param float $longitude
-     */
-    public function setLongitude($longitude)
+    public function setLongitude(float $longitude)
     {
         $this->longitude = $longitude;
     }
 
-    /**
-     * @return float
-     */
-    public function getLongitude()
+    public function getLongitude(): float
     {
         return $this->longitude;
     }
 
-    /**
-     * @param Point $point
-     * @return float
-     */
-    public function distanceTo(Point $point)
+    public function distanceTo(Point $point): float
     {
         return Tools::distance($this->getLatitude(), $this->getLongitude(), $point->getLatitude(), $point->getLongitude());
     }
