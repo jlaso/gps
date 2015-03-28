@@ -16,10 +16,14 @@ class Tools
      * @param $longitude1
      * @param $latitude2
      * @param $longitude2
-     * @return float  distance between coordinates in kilometers
+     * @return float distance between coordinates in kilometers
+     * @throws \Exception
      */
-    public static function distance($latitude1,$longitude1,$latitude2,$longitude2)
+    public static function distance($latitude1, $longitude1, $latitude2, $longitude2)
     {
+        if(!is_numeric($latitude1) || !is_numeric($longitude1) || !is_numeric($latitude2) || !is_numeric($longitude2)){
+            throw new \Exception("distance can not be calculated with non numerical values!");
+        }
         // normalize values
         $latitude1  = floatval($latitude1);
         $longitude1 = floatval($longitude1);
