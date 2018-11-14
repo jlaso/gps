@@ -1,6 +1,6 @@
 {
     "name": "jlaso/gps",
-    "version": "0.1",
+    "version": "0.1.1",
     "type": "library",
     "description": "I intent in this repo to have togheter all my gps tools that I need for my projects.",
     "keywords": ["jlaso", "gps", "gps-tools"],
