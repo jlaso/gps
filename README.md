@@ -20,7 +20,7 @@ Required PHP7
 
 ### Authors
 
-* [Joseluis Laso] - <jlaso@joseluislaso.es>
+* [Joseluis Laso] - <http://www.joseluislaso.es>
 
 
 ### Installation
